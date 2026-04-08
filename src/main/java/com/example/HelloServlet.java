@@ -24,6 +24,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<html><head><title>Hello World</title></head><body>");
             out.println("    <h1>Hello World! 👋</h1>");
             out.println("    <p>This is a Java 1.8 servlet running on Tomcat 9.</p>");
+            out.println("    <p>Ready to check the Weather for the Navy!</p>");
             out.println("    <p>Current server time: " + new java.util.Date() + "</p>");
             out.println("</body></html>");
         }
